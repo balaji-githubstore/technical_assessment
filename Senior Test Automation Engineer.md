@@ -43,8 +43,6 @@ Expected:
   }
 ]
 ```
-```
-
 ### POST /pet
 Adds pet to the store.
 
@@ -70,7 +68,6 @@ Body:
   ],
   "status": "available"
 }
-
 ```
 Expected:
 - Response body will be json with added pet details
