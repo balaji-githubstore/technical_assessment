@@ -70,6 +70,7 @@ Body:
   ],
   "status": "available"
 }
+
 ```
 Expected:
 - Response body will be json with added pet details
