@@ -1,6 +1,6 @@
 # Tech Assessment for Test Automation Engineers
 
-In this test assignment we would like to ask you to create two small test suits: one for a API and one for a web interface.
+In this test assignment, we would like to ask you to create two small test suits: one for a API and one for a web interface.
 
 ## 1. The API Test
 
@@ -15,11 +15,11 @@ Swagger link - https://petstore.swagger.io/
 
 ### GET /pet/findByStatus
 
-(query) Status values that need to be considered for filter
-Available values : available, pending, sold
+(query) Status values that need to be considered for the filter
+Available values: available, pending, sold
 
 Expected: 
-- List of pet based on status in the format bellow. 
+- List of pets based on status in the below format. 
 - HTTP 200 OK
 ```
 [
