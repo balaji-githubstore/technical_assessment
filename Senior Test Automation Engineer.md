@@ -79,16 +79,28 @@ Both endpoints are working fine, but if you find any discrepancy between the spe
 
 ## 2. The Web Interface Test
 
-For the web, we will be testing this system: https://react-ts-redux-realworld-example-app.netlify.app/#/
+For the web, we will be testing this system: http://demo.openemr.io/b/openemr/
 
-**Use case:** Should like post in the Global Feed List
-1. Login to the application
-1. Go to the Global Feed Tab
-1. Find the Project "We need to calculate the wireless TCP circuit!"
-1. Click in the heart box on the right to like the project.
-1. The number of likes should increase by 1
+**Use case:** Should add new patient detail
+1.  Navigate onto http://demo.openemr.io/b/openemr/
+2.	Update username as admin
+3.	Update password as pass
+4.	Select language as English (Indian)
+5.	Click on the login button
+6.	Click on Patient  Click New Search
+7.	Add the first name, last name
+8.	Update DOB as today's date 
+9.	Update the gender
+10.	. Click on the create new patient button above the form
+11.	. Click on confirm create new patient button.
+12.	. Print the text from alert box (if any error before handling alert add 5 sec wait)
+13.	. Handle alert
+14.	Close the Happy Birthday popup
+15.	Validate the added patient name.
+
  
-This is an open application, you can easily create a new user on your own to run your tests.
+This is an open application; you can easily access it, and sites get reset between 2 PM IST and 5 PM IST. So mention the time of downtime in readme if you face during automation. 
+Kindly wait till 5 PM IST in case if the link is not accessible. 
 
 <br/>
 
